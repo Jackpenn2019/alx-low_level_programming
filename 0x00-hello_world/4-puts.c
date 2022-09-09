@@ -1,11 +1,11 @@
 #include<stdio.h>
 /**
- * main - main method
- * Returns: 0
+ *
+ * main - outputs the text "Programming is like building a multilingual puzzle
+ * Return: 0 is program exits correctly
  */
 int main(void)
 {
-char str[] = "\"Programming is like building a multilingual puzzle";
-puts(str);
-return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
