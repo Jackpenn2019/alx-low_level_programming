@@ -1,8 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- *  main - prints with proper grammar, but the outcome is a piece of art,
- *  Return - 0 if program exits normally, otherwise non zero
+ *  main - prints with proper grammar,
+ *  but the outcome is a piece of art,
+ *  Return: 0 if program exits normally, otherwise non zero
  */
 int main(void)
 {
