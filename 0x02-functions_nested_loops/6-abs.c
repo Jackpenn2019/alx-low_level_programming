@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * _abs - computes the absolute value of an integer
- * @int: pamater passed
+ * _abs - computes the absolute value
+ * @c: pamater passed
  *
  * Return: absolute value
  */
