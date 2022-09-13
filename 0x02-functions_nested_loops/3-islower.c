@@ -4,8 +4,9 @@
 /**
  *  _islower - checks for lowercase character
  *
- *  Return - 1 if lowercase
+ *  Returns - 1 if lowercase
  *           0 otherwise
+ *  c - parameter received         
  */
 
 int _islower(int c)
@@ -20,5 +21,5 @@ int _islower(int c)
 	{
 		x = 0;
 	}
-	return x;
+	return (x);
 }
