@@ -2,7 +2,8 @@
 
 /**
  * add - add two integers
- * @n, @m: integers passed
+ * @m: integer 1 passed
+ * @n: integer 2 passed
  *
  * Return: always integer
  */
