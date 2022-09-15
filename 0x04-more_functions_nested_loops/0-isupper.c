@@ -2,8 +2,11 @@
 #include <ctype.h>
 
 /**
- *  _isupper - checks for upper case character
+ *  _isupper - checks for
+ *  upper case character
  *  c: parameter passed
+ *
+ *  x: variable to store result
  *
  *  Return: always integer
  */
@@ -16,7 +19,7 @@ int _isupper(int c)
 		x = 1;
 	}
 	else
-	{	
+	{
 		x = 0;
 	}
 	return (x);
