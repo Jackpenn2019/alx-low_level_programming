@@ -4,7 +4,7 @@
 /**
  *  _isupper - checks for
  *  upper case character
- *  c: parameter passed
+ *  @c: parameter passed
  *
  *  x: variable to store result
  *
