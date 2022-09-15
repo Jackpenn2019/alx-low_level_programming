@@ -7,7 +7,7 @@
  *  Return: void
  */
 
-void main(void)
+int main(void)
 {
 	int x;
 
@@ -23,5 +23,7 @@ void main(void)
 			printf("%d ", x);
 	}
 	printf("Buzz\n");
+
+	return (0);
 
 }
