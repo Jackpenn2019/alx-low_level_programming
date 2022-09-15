@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- *  print_fizz - prints fizz
+ *  main - prints fizz
  *
  *  Return: always 0
  */
