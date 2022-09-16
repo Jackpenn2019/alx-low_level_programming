@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- *  print_diagonal - prints diagonal
+ *  print_diagonal - prints
+ *  diagonal
  *  @n: input parameter
  *
  *  Return: void
@@ -30,5 +31,4 @@ void print_diagonal(int n)
 	{
 		_putchar('\n');
 	}
-
 }
