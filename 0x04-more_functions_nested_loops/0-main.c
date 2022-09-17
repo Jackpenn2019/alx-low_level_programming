@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * main - test some files
+ * main - test files
  * Return: void
  */
-
 int main(void)
 {
-int i;
+	int i;
 
 	i = 0;
+
 	positive_or_negative(i);
 
-return (0);
+	return (0);
 }
