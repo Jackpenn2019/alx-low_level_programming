@@ -10,18 +10,17 @@
 void puts_half(char *str)
 {
 	int x;
-	
 	unsigned int y;
 
 	if (strlen(str) % 2 != 0)
 	{
-		x = (strlen(str) - 1) / 2;
+		x = (strlen(str) / 2) + 1;
 	}
 	else 
 	{
 		x = strlen(str) / 2;
 	}
-	for (y = x; y < strlen(str); y++)
+	for (y = x; y <= strlen(str); y++)
 	{
 		_putchar(str[y]);
 	}
