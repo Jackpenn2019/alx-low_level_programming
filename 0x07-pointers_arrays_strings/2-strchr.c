@@ -14,6 +14,7 @@ char *_strchr(char *s, char c)
 	int i = 0;
 
 	int j = strlen(s);
+
 	char *position;
 
 	for (i = 0; i < j; i++)
@@ -25,6 +26,5 @@ char *_strchr(char *s, char c)
 		}
 		else position = NULL;
 	}
-
 	return (position);
 }
