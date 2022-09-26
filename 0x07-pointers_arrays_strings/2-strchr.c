@@ -15,16 +15,13 @@ char *_strchr(char *s, char c)
 
 	int j = strlen(s);
 
-	char *position;
-
 	for (i = 0; i < j; i++)
 	{
 		if (s[i] == c)
 		{
-			position = &(s[i]);
-			break;
+			return &(s[i]);
+
 		}
-		else position = NULL;
 	}
-	return (position);
+	return NULL;
 }
