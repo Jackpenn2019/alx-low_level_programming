@@ -27,7 +27,9 @@ int is_prime_number(int n)
 int _actual_prime(int x, int y)
 {
 	if (y == 1)
+	{
 		return (1);
+	}
 	else
 	{
 		if ((x % y) == 0)
