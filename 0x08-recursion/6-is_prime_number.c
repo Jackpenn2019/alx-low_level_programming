@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * s_prime_number - returns 1 if the input integer is
+ * is_prime_number - returns 1 if the input integer is
  * a prime number, otherwise return 0
  * @n: input parameter
  *
@@ -26,14 +26,13 @@ int is_prime_number(int n)
 
 int _actual_prime(int x, int y)
 {
-
 	if (y == 1)
 		return (1);
-	else 
+	else
 	{
 		if ((x % y) == 0)
 			return (0);
-		else 
+		else
 			return (_actual_prime(x, y - 1));
 	}
 }
