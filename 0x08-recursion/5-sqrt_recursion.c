@@ -28,5 +28,5 @@ int _actual_sqrt(int x, int y)
 		return (-1);
 	else if ((y * y) == x)
 		return (y);
-	return (_actual_sqrt(x, y+1));
+	return (_actual_sqrt(x, y + 1));
 }
