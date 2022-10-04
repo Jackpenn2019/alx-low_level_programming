@@ -4,6 +4,8 @@
  * main - main method
  * @argc: first argument
  * @argv: second argument
+ *
+ * Return: int
  */
 
 int main(int argc, char *argv[] __attribute__((unused)))
