@@ -31,10 +31,10 @@ int isPalRec(char *s, int m, int n)
 	{
 		return (1);
 	}
-	 else if (s[m] != s[n])
-	 {
-	 	 return (0);
-	 }
+	else if (s[m] != s[n])
+	{
+		return (0);
+	}
 	if (m < n + 1)
 	{
 		return (isPalRec(s, m + 1, n - 1));
