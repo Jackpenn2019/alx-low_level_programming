@@ -15,7 +15,7 @@ int is_palindrome(char *s)
 		return (1);
 	return (isPalRec(s, 0, n - 1));
 }
-	
+
 /**
  * isPalRec - checks if palindrome
  * @s: input string
