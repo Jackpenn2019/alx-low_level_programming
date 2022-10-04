@@ -13,5 +13,7 @@ int _sqrt_recursion(int n);
 int _actual_sqrt(int x, int y);
 int is_prime_number(int n);
 int _actual_prime(int x, int y);
-
+int is_palindrome(char *s);
+int _palindrome(char *s, int m, int n);
+int isPalRec(char *s, int m, int n);
 #endif
