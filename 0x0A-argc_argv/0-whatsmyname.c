@@ -3,7 +3,7 @@
 /**
  * main - main programe
  * @argc: first argument
- * @argc: second argument
+ * @argv: second argument
  *
  * Return: void
  */
