@@ -3,7 +3,7 @@
 /**
  * array_range - creates an array of integers.
  * @min: minimum range
- * @max
+ * @max: maximum range
  *
  * Return: pointer
  */
@@ -22,7 +22,7 @@ int *array_range(int min, int max)
 	if (ptr == NULL)
 		return (NULL);
 
-	for (i = 0; i <= max; i++, j++)
+	for (i = 0; i <= (max + 1); i++, j++)
 		ptr[i] = j;
 
 	return (ptr);
