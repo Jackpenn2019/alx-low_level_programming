@@ -1,9 +1,6 @@
-#ifndef DOG_H
-#define DOG_H
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <ctype.h>
+#ifndef _HEADER_
+#define _HEADER_
+
 /**
  * struct dog - Dog attributes
  * @name: name of the dog
