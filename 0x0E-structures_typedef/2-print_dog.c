@@ -17,7 +17,8 @@ void print_dog(struct dog *d)
 	{
 		name = "nil";
 	}
-	else name = d->name;
+	else
+	       	name = d->name;
 
 	if (d->owner == NULL)
 	{
@@ -25,7 +26,12 @@ void print_dog(struct dog *d)
 	}
 	else
 		owner = d->owner;
-	age = d->age;
+	if (!(d->age))
+	{
+		age = 0;
+	}
+	else
+		age = d->age;
 
 	if (d != NULL)
 	{
