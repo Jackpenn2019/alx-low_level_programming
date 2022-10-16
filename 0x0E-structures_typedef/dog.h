@@ -6,7 +6,7 @@
  * @age: age of the dog
  * @owner: who owns the dog
  *
- * Description: attributes of a 
+ * Description: attributes of a
  * dog
  */
 
