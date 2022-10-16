@@ -4,7 +4,7 @@
 
 /**
  * free_dog - frees dogs
- * @d: pointer to memory location 
+ * @d: pointer to memory location
  * with struct dog
  *
  * Return: void
