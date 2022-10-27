@@ -15,15 +15,21 @@ unsigned int binary_to_uint(const char *b)
 	int index;
 	unsigned int total = 0;
 
+	if (!b)
+		return (0);
+
 	size = strlen(b);
 
 	for (index = (size - 1); index >= 0; index --)
 	{
+		if (b[index] != '1' && b[index] != '0')
+			return (0);
+
 		if (b[index] == '1')
 		{
 			total += decval;
-			decval *= 2;
 		}
+		decval *= 2;
 	}
 	return (total);
 }
